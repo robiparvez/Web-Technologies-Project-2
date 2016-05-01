@@ -1,0 +1,3 @@
+ALTER TABLE click_count
+ADD FOREIGN KEY (b_id)
+REFERENCES book(b_id)
